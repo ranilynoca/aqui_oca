@@ -5,11 +5,11 @@ class Coffee:
 		self.water = w
 		self.cream = c
 		self.mug = m
-    self.teaspoon = t
-    self.waterstatus = s
-
-  def heatwater(self, s):
-    self.waterstatus = s
+		self.teaspoon = t
+		self.waterstatus = s
+		
+	def heatwater(self, s):
+		self.waterstatus = s
 
 coffee1 = Coffee("arabica", "distilled", "fullcream", "large", "silver", "cold")
 coffee2 = Coffee("robusta", "alkaline", "lowfat", "medium", "wooden", "hot")
