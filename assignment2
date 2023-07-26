@@ -1,0 +1,18 @@
+# This is the Coffee class
+class Coffee:
+	def __init__(self, p, w, c, m, t, s):
+		self.powder = p
+		self.water = w
+		self.cream = c
+		self.mug = m
+    self.teaspoon = t
+    self.waterstatus = s
+
+  def heatwater(self, s):
+    self.waterstatus = s
+
+coffee1 = Coffee("arabica", "distilled", "fullcream", "large", "silver", "cold")
+coffee2 = Coffee("robusta", "alkaline", "lowfat", "medium", "wooden", "hot")
+print("waterstatusbefore:", coffee1.waterstatus)
+coffee1.heatwater("hot")
+print("waterstatusafter:", coffee1.waterstatus)
