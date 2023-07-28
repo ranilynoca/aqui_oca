@@ -1,3 +1,4 @@
+# This is the Store class
 class Store:
     def __init__(self, name, location, category, num_employees, is_open):
         self.name = name            # Name of the store
