@@ -1,3 +1,4 @@
+# This is the VirtualPet
 class VirtualPet:
     def __init__(self, name, species, age, mood, energy):
         self.name = name      # Name of the virtual pet
